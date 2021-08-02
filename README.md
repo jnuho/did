@@ -91,17 +91,17 @@ If the identified resource has one or more representations on the web, the metad
 Four properties of DID:
 1. Permanent
 2. Resolvable
-3. Cryptographically verifiable
-	cryptography is used to generate the DID.
-	since the DID is now associated with exactly one public/private key pair,
-	the controller of the private key can prove that they are also the controller of the DID.
+3. Cryptographically verifiable : 
+  cryptography is used to generate the DID.
+  since the DID is now associated with exactly one public/private key pair,
+  the controller of the private key can prove that they are also the controller of the DID.
 
-4. Decentralized
-	cryptography eliminates the need for centralized registration authorities
-	By contrast, cryptographic algorithms for public/private key pairs
-	are based on random number generators, large prime numbers, elliptic curves,
-	or other cryptographic techniques for producing globally unique values
-	that do not require a central registry to effectively guarantee uniqueness
+4. Decentralized : 
+  cryptography eliminates the need for centralized registration authorities
+  By contrast, cryptographic algorithms for public/private key pairs
+  are based on random number generators, large prime numbers, elliptic curves,
+  or other cryptographic techniques for producing globally unique values
+  that do not require a central registry to effectively guarantee uniqueness
 
 ```
 As a result, anyone with the proper software can generate a DID
