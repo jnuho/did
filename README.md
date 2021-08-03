@@ -1,25 +1,21 @@
 
-## 1.3 The three models of digital identity
-1.3.1 The centralized identity model
-e.g. Account-based website
-![Figure1.1](https://drek4537l1klr.cloudfront.net/preukschat/HighResolutionFigures/figure_1-1.png)
+## 1 Three models of digital identity
+- The centralized identity model
+  - e.g. Account-based website
+  - [You] &ndash;account&rarr; [Org]
 
 
-1.3.2 The federated identity model
-The basic idea : insert a service provider called an identity provider (IDP) in the middle
-Examples :
-- SAML
-- OAuth
-- OpenID Connect
-- SSO
-![Figure1.2](https://drek4537l1klr.cloudfront.net/preukschat/Figures/CH01_F02_Preukschat.png)
+- The federated identity model
+  - The basic idea is to insert a service provider called an identity provider (IDP) in the middle
+  - e.g. SAML, OAuth, OpenID Connect, SSO
+  - [You] &ndash;account&rarr; [IDP] &rarr; [Org]
 
-1.3.3 The decentralized identity model
-A new model, inspired by blockchain technology since 2015
 
-- DIDs as a new decentralized identity standard.
-- Not account-based
-- peer-to-peer relationship, neither of you has an 'account'; both share a 'connection'
+- **The decentralized identity model**
+  - A new model, inspired by blockchain technology, surfaced in 2015
+  - DIDs as a new decentralized identity standard.
+  - Not account-based
+  - peer-to-peer relationship, neither of you has an 'account'; both share a 'connection'
 
 ![Figure1.4](https://drek4537l1klr.cloudfront.net/preukschat/HighResolutionFigures/figure_1-4.png)
 
@@ -43,15 +39,14 @@ decentralized solution for
 
 SSI is a set of technologies that build on core concepts in identity management, distributed computing, blockchain or distributed ledger technology (DLT), and cryptography.
 
-2.1 Verifiable credentials (aka digital credentials)
-2.2 The trust triangle: issuers, holders, and verifiers
-2.3 Digital wallets
-2.4 Digital agents
+- 2.1 Verifiable credentials (aka digital credentials)
+- 2.2 The trust triangle: issuers, holders, and verifiers
+- 2.3 Digital wallets
+- 2.4 Digital agents
 
-2.5 Decentralized identifiers (DIDs)
+- 2.5 Decentralized identifiers (DIDs)
 
-Knowing the IP address of a machine on the internet doesn’t tell you anything about the identity of
-the person, organization, or thing controlling that machine.
+Knowing the IP address of a machine on the internet doesn’t tell you anything about the identity of the person, organization, or thing controlling that machine.
 To do that, the controller (the identity holder) needs to be able to provide proof
 about their identity, attributes, relationships, or entitlements.
 And that proof has to be verifiable in some way.
